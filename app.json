@@ -1,7 +1,7 @@
 {
-      "name": "SZROSEBOT",
-      "description": "Hey there 👋 I'm szrosebot .A Powerful, Smart And Simple Group Manager with some extra features..",
-	  "logo": "https://telegra.ph/file/9dd16a0599147d664f2a8.jpg",
+      "name": "Shykiller_bot",
+      "description": "Hey there 👋 I'm Shykiller_bot .A Powerful, Smart And Simple Group Manager with some extra features..",
+	  "logo": "https://telegra.ph/file/b6b70687f349ddc353687.jpg",
       "keywords": [
          "Telegram",
          "Groupmanager",
@@ -70,16 +70,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1108072683"
+         "value": "2132994478"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "hirunaofficial"
+         "value": "I_follow_no_one"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: SL Tech Zone. If this ever points to SL Tech Zone support than consider you made an enemy.",
          "required": true,
-         "value": "sltechzoneofficial"
+         "value": "Shykillersupportchat"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
