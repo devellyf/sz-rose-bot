@@ -66,16 +66,16 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 import DewmiBot.modules.sql.users_sql as sql
 
 PM_START_TEXT = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm Shykiller_bot
 An anime - Themed advanced telegram Group management 
 Bot For help You Manage & Protect Your Groups.
 ➼ `{sql.num_users()}` *Users*
 ➼ `{sql.num_chats()}`  *Chats*
-♻️Maintained by [supunma <sz/>](https://t.me/szteambots)
+♻️Maintained by [Shykillersupportchat](https://t.me/Shykillersupport)
 """
 
 HELP_STRINGS = f"""
-✨Hello There , I'm szrosebot
+✨Hello There , I'm Shykiller_bot
 An anime - Themed advanced telegram Group management
 Bot For help You Manage & Protect Your Groups.
 **General commands**:
@@ -89,8 +89,8 @@ Bot For help You Manage & Protect Your Groups.
 
 DONATE_STRING = """
 ➢ Heya,glad to hear you want to donate !
-➢ You can support the project @supunmabot
-➢ Supporting isnt always financial! [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+➢ You can support the project @Shykiller_bot
+➢ Supporting isnt always financial! [Youtube](https://www.yosupunmabochannel/UCvYfJcTr8RY72dIapzMqFQA)
 ➢ Those who cannot provide monetary support are welcome to help us develop the bot at @szteambots.
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
@@ -99,20 +99,20 @@ BUTTONS = (
     [
         [
             InlineKeyboardButton(
-                text="🆘 Help 🆘", callback_data = "helpmenu_"
+                text="🔰Help🔰", callback_data = "helpmenu_"
             ),
             InlineKeyboardButton(
-                text="📊 Stats 📊",
+                text="🏓Stats🏓",
                 callback_data="stats_callback",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🗣 Updates", url="https://t.me/szteambots"
+                text="🗣 Updates", url="https://t.me/Shykillersupportchat"
             ),
             InlineKeyboardButton(
                 text="👥 Support",
-                url="https://t.me/slbotzone",
+                url="https://t.me/Shykillersupport",
             ),
         ],
         [
@@ -311,7 +311,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "╔═════「   szrosebot   」═════╗\n\nHere Is The Available  Help\n          For The {}   \n\n╚═════「  szrosebot   」═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ".format(
+                "╔═════「   Shykillersupport   」═════╗\n\nHere Is The Available  Help\n          For ThShykillersupportzroseosebot   」═════╝\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -373,8 +373,8 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f" @szrosebot🇱🇰 - A bot to manage your groups with additional features!"
-            f"\n\n Here's the basic help regarding use of @szrosebot🇱🇰."
+            text=f" @Shykiller_bot🧨- A bot to manage your groups with additional features!"
+            f"\n\n Here's the basic help regarding use of @Shykiller_bot🧨."
             f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
             f"\n\n Report error/bugs click the Button ",
             parse_mode=ParseMode.MARKDOWN,
@@ -383,15 +383,15 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
+                            text="Bᴜɢ'ꜱ🔄", url="t.me/slbotzone"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/szteambots"
+                            text="updates🏖️", url="t.me/szteambots"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Owner", url="http://t.me/Shykillersupport?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
@@ -439,7 +439,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Let's make your group bot effective now*"
-            f"\nCongragulations, @szrosebot🇱🇰 now ready to manage your group."
+            f"\nCongragulations, @Shykiller_bot🌏 now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -466,14 +466,14 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_spamprot":
         query.message.edit_text(
-            text="* @szrosebot🇱🇰 support chats*"
+            text="* @Shykillersupportchat🌏 support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/szteambots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Shykillersupportchat"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Shykillersupport"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
@@ -484,25 +484,25 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
-            text=f"* CREDITS  FOR @szrosebot🇱🇰  DEV *\n"
+            text=f"* CREDITS  FOR @ShykillersupportchatDEV *\n"
             f"\n Here you can find information about the bots I coded and the people who helped me create Rose"
-            f"\n Special credits [hirunaofficial](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot)  & [Anikivictor](https://github.com/Damantha126/The-Anki-Vector)"
+            f"\n Special credits [KannuXD](https://github.com/devellyf/Telegram-Group-Management-Bot-Shykiller_bot)  & [SHY XD](https://github.com/devellyf/)"
             f"\n Finally my special thanks to you for using this bot",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Dewmibot", url="https://t.me/sltechzoneofficial"),
-                    InlineKeyboardButton(text="Aniki victor bot", url="https://t.me/ankivectorUpdates"),
+                    InlineKeyboardButton(text="Shykiller_bot", url="https://t.me/sltechzoneofficial"),
+                    InlineKeyboardButton(text="T A J bot", url="https://t.me/Shykillersupportchat"),
                  ],
                  [
-                    InlineKeyboardButton(text="Uvindu bro", url="https://t.me/UvinduBro"),
-                    InlineKeyboardButton(text="Stream_Music", url="https://t.me/SDBOTs_inifinity"),
+                    InlineKeyboardButton(text="Uvindu bro", url="https://t.me/I_follow_no_one"),
+                    InlineKeyboardButton(text="Vc Music", url="https://t.me/Shykiller_bot"),
                  ],
                  [
-                    InlineKeyboardButton(text="Daisyx bot", url="https://github.com/TeamDaisyX/Daisy-OLD"),
-                    InlineKeyboardButton(text="innexia bot", url="https://github.com/DarkCybers/innexia/blob/Sammy/innexiaBot"),
+                    InlineKeyboardButton(text="Twn bot", url="https://github.com/devellyf"),
+                    InlineKeyboardButton(text="Kannu bot", url="https://t.me/XD_dead_killer),
                  ],   
                  [
                     InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto"),
@@ -549,7 +549,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Click me for help!",
-                            url="https://t.me/szrosebot",
+                            url="https://t.me/Shykillersupportchat",
                         )
                     ],
                 ]
