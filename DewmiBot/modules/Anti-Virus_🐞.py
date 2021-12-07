@@ -69,19 +69,19 @@ async def virusscan(event):
     try:
         c.media.document
     except Exception:
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @Shykillersupportchat")
         return
     h = c.media
     try:
         k = h.document.attributes
     except Exception:
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @Shykillersupportchat")
         return
     if not isinstance(h, MessageMediaDocument):
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @Shykillersupportchat")
         return
     if not isinstance(k[0], DocumentAttributeFilename):
-        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @slbotzone")
+        await event.reply("💁🏼‍♂️ This bot accepts only files.\n💬support chat👉 @Shykillersupportchat")
         return
     try:
         virus = c.file.name
@@ -110,7 +110,7 @@ async def virusscan(event):
         return
 
 __help__ = """
-@szrosebot🇱🇰
+@Shykiller_bot🌏
  ❍ /scanit: Scan a file for virus (MAX SIZE = 3MB)
 """
 __mod_name__ = "ᴠɪʀᴜꜱ🦠"
